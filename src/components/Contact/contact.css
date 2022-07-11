@@ -1,0 +1,86 @@
+.contact-us-container{
+    padding: 2%;
+}
+
+.contact-info-container{
+    border-style: solid;
+    border-width: 1px;
+
+    padding: 3%;
+}
+
+.phone-number {
+    margin-left: 4%;
+    color: #42b183;
+}
+
+.email{
+    margin-left: 15px;
+    color: #42b183;
+}
+
+@media screen and (min-width: 769px){
+    .phone-number{
+        margin-left: 15px;
+    }
+
+    .email{
+        margin-left: 15px;
+    }
+
+    .contact-us-container{
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+.get-in-touch-container{
+    /* border-style: solid; */
+    padding: 5%;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200mm;
+    height: 150mm;
+    
+    /* border-style: solid; */
+}
+
+.text-area-input{
+    /* width: 140mm; */
+    height: 100mm;
+}
+
+.submit-button{
+    width: 25mm;
+    height: 20mm;
+    background-color: #1f7dcf;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+
+    margin-top: 30px;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 769px){
+    .get-in-touch-container{
+        /* border-style: solid;
+        border-color: red; */
+        min-width: fit-content;
+        max-width: fit-content;
+    }
+
+    .contact-input-box{
+        width: 80vw;
+    }
+}
+
+.modal-popup-container{
+    background-color: #42b183;
+    color: black;
+}

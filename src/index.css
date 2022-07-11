@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.primary-color{
+  color: #42b183;
+}
+
+.secondary-color{
+  background-color: #e5fbf1;
+}
+
+.primary-heading{
+  font-family: roboto;
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #42b183;
+}
+
+.secondary-heading{
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: bold;
+  color: #42b183;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+
+.tick-mark{
+  width: 7mm;
+  height: 6mm;
+  color: #42b183;
+  /* background-color: #42b183; */
+}
+
+.services-unordered-list{
+  list-style-type: none;
+}
+
+.unordered-list-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

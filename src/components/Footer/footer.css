@@ -1,0 +1,75 @@
+
+.footer-image{
+    margin-top: 30px;
+}
+
+.footer-description-heading{
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+/* ul li:before {
+    content: '✔';
+  } */
+
+.footer-list-item{
+    font-size: 14px;
+}
+
+.footer-link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-style: solid;
+    border-color: red; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .footer-description-container{
+        /* border-style: solid; */
+        padding: 10px;
+        padding-top: 5%;
+    }
+
+    .footer-container{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        /* margin-top: 50px; */
+        /* border-style: solid;
+        border-color: red; */
+    }
+
+    .footer-image-container{
+        padding-left: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-style: solid;
+        border-color: red; */
+    }
+
+    .footer-description-container{
+        padding-left: 6%;
+        width: 350mm;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border-style: solid;
+        border-color: red; */
+    }
+    
+}
+
+.footer-tick-mark{
+    width: 7mm;
+    height: 6mm;
+}

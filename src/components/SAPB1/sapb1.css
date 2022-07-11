@@ -1,0 +1,199 @@
+
+.sap-container{
+    padding: 20px;
+}
+
+.erp-image{
+    width: 80vw;
+}
+
+
+.sap-para-content{
+    text-align: justify;
+}
+
+.sap-bottom-container-image{
+    width: 80vw;
+    height: 50vh;
+}
+
+.company-logo{
+    width: 80vw;
+
+}
+
+.sap-logos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.logos-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sap-logo{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.sap-logo-name{
+    margin-bottom: 5%;
+}
+
+
+
+.sap-middle-container{
+    margin-top: 20%;
+}
+
+.sap-bottom-container{
+    margin-top: 20%;
+}
+.sap-logos-container{
+    margin-top: 20%;
+}
+
+.sap-company-logos-container{
+    padding-top: 10%;
+}
+
+
+
+
+@media screen and (min-width: 500px){
+    .sap-erp-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: -30px;
+        margin-bottom: 2%;
+
+        /* border-style: solid; */
+    }
+
+    .sap-erp-content-box{
+        padding-right: 2%;
+        padding-top: 0px;
+        /* border-style: solid; */
+        margin-top: -10px;
+    }
+
+    .erp-image{
+        width: 70mm;
+        height: 70mm;
+    }
+
+    .erp-integration-heading{
+        margin-top: 5%;
+    }
+
+
+    .sap-middle-container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        margin-bottom: 2%;
+
+        /* border-style: solid; */
+    }
+
+    .sap-bussiness-image{
+        width: 130mm;
+        height: 120mm;
+    }
+
+
+    .sap-bottom-container{
+        /* border-style: solid; */
+
+        margin-top: 0px;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .sap-bottom-content-container{
+        padding-right: 3%;
+    }
+
+    .sap-bottom-container-image{
+        width: 120mm;
+    }
+
+
+    .sap-logos-container{
+        /* border-style: solid; */
+
+        margin-top: 0px;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logos-box{
+        /* border-style: solid; */
+
+        display: flex;
+        flex-direction: row;
+
+        margin-bottom: opx;
+        margin-top: 0px;
+    }
+
+    .sap-logo-name{
+        font-size: 22px;
+    }
+
+    .individual-logo-box{
+        /* border-style: solid; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 70mm;
+        height: 50mm;
+        margin-right: 4%;
+        padding: 0px;
+    }
+
+    .sap-company-logos-container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 30px;
+        padding-top: 0px;
+        /* border-style: solid; 
+        border-color: red; */
+    }
+
+    .company-logo{
+        width: 80mm;
+        height: 65mm;
+    
+    }
+
+    .intron-logo{
+        width: 60mm;
+        height: 40mm;
+    }
+
+    .bio-me-logo{
+        width: 65mm;
+        height: 40mm;
+    }
+
+    .our-clients-heading{
+        margin-bottom: 0px;
+    }
+}
